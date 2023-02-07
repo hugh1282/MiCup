@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>MiCup Industries - A More Sustainable Future</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="header-container">
+			<h1>MiCup Industries</h1>
+			<nav>
+				<ul>
+					<li><a href="#about">About</a></li>
+					<li><a href="#services">Services</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="about">
+		<h2>About MiCup Industries</h2>
+		<p>MiCup Industries is committed to a more sustainable future through the use of reusable coffee cups. Our mission is to make it easier for coffee shop owners and customers to transition to a more environmentally friendly solution for coffee consumption. </p>
+		<p>With our reusable coffee cups, customers can enjoy their coffee while reducing their environmental impact and coffee shop owners can save on disposable cups and payments infrastructure. </p>
+	</section>
+
+	<section id="services">
+		<h2>Our Services</h2>
+		<p>We offer two main services:</p>
+		<ul>
+			<li>Payment system for coffee shops</li>
+			<li>Branded reusable coffee cups for customers</li>
+		</ul>
+		<p>Our payment system is designed to be easy to use and convenient for coffee shops and customers. Our branded reusable coffee cups double as payment and loyalty cards, making it easier for customers to track their purchases and rewards.</p>
+	</section>
+
+	<section id="contact">
+		<h2>Contact Us</h2>
+		<form action="submit.php" method="post">
+			<input type="radio" name="customer" value="customer">Customer Sign-Up<br>
+			<input type="radio" name="coffee-shop" value="coffee-shop">Coffee Shop Sign-Up<br><br>
+			<label for="name">Name:</label>
+			<input type="text" id="name" name="name" required><br>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required><br>
+			<label for="phone">Phone:</label>
+			<input type="tel" id="phone" name="phone" required><br><br>
+			<input type="submit" value="Submit">
+		</form>
+	</section>
